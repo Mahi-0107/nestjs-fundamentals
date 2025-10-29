@@ -4,244 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <h1>Welcome to <mark>TuteDude</mark> </h1>
-    <p>A project designed by TuteDude to learn HTML</p><br>
-    <p>Best TuteDude in town since 2021 </p>
-    
-    <nav>
-            <ul>
-                <li><a href="#about">About TD</a></li>
-                <li><a href="#menu">Our Menu</a></li>
-                <li><a href="#trivia">Taco Trivia</a></li>
-                <li><a href="#extras">Extras</a></li>
-                <li><a href="#feedback">Feedback Form</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-     </nav>
-
-     <figure>
-            <img src="https://images.shiksha.com/mediadata/images/articles/1739779901phpxOdKq8.jpeg" height="200px" width="250px">
-            <figcaption>TuteDude and a Drink</figcaption>
-        </figure>
-</header>
-     
-
-<main>
-            <section id="about">
-                 <h2>About <a href="#top"></a></h2>
-                 <p>TD was founded 2021. This demo was created by for learning all major html tags. <br> <br>&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLevel
-                    up your career with expert mentorship  & interships for FREE.
-                 </p>
-                 <hr>
-
-            </section>
+      <header>
+            <div class="logo">Sippline</div>
+            <nav>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Blogs</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="buy-now">Buy-Now</button>
+      </header>
 
 
-        <search id="Menu">
-            <h2>Our Menu</h2>
-            <table border="1" cellpadding="8" cellspacing"0">
-                <caption><strong>TuteDude Complete Taco Menu</strong></caption>
-                            <thead>
-                                    <tr>
-                                            <th>Category</th>
-                                            <th>Type</th>
-                                            <th colspan="2">Small Portion</th>
-                                            <th colspan="2">Large Portion</th>
-                                           
-                                    </tr>
-                                     <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th>Qty</th>
-                                            <th>Price</th>
-                                            <th>Qty</th>
-                                            <th>Price</th>
-                                 </tr>
-                         </thead>
+      <section class="hero">
+         <div class="hero-content">
+            <h1>Sippline drinking shields - The “Glass ka Mask”</h1>
+            <p>
+                 Sippline Drinking Shield aims to protect the user from not just such fatal diseases but also the mild ones such as common flu. Sippline drinking shield does the same job a face mask does, albeit differently.
+            </p>
+            <button class="cta-btn">Buy the Glass Mask!</button>
+         </div>
+         <div class="hero-image">
+            <img src="pic-2.jpg" alt="glass">
+           
+         </div>
 
-                         <tbody>
-                                    <tr>
-                                            <td rowspan="3">TuteDude</td>
-                                            <td>Crunchy (Beef)</td>
-                                            <td>1</td>
-                                            <td>$1.50</td>
-                                            <td>3</td>
-                                            <td>$3.25</td>
-                                    </tr>
-                                            <tr>
-                                            <td>Crunchy (Chicken)</td>
-                                            <td>1</td>
-                                            <td>$1.75</td>
-                                            <td>3</td>
-                                            <td>$3.50</td>
-                                    </tr>
-                                    <tr>
-                                            <td>
-                                                Crunchy (Veggie)
-                                                <br><b>Nutrition Info</b>
-                                                <table border="1" cellpadding="3" cellspacing="0">
-                                    <tr>
-                                                    <th>Nutrient</th>
-                                                    <th>Value</th>
-                                   </tr>
-                                    <tr>
-                                                    <td>Calories</td>
-                                                    <td>150 kcal</td>
-                                    </tr>
-                                    <tr>
-                                                    <td>Protein</td>
-                                                    <td>5 g</td>
-                                    </tr>
-                                     <tr>
-                                                    <td>Fiber</td>
-                                                    <td>4 g</td>
-                                    </tr>
-                                                </table>
-                                    </td>
-                                            <td>1</td>
-                                            <td>$1.25</td>
-                                            <td>3</td>
-                                            <td>$3.00</td>
-                                    </tr>
-
-                                    <tr>
-                                            <td rowspan="2">Soft TuteDude</td>
-                                            <td>Soft (Beef)</td>
-                                            <td>2</td>
-                                            <td>$3.50</td>
-                                            <td>4</td>
-                                            <td>$6.50</td>
-                                    </tr>
-                                            <tr>
-                                            <td>Soft (Veggie)</td>
-                                            <td>2</td>
-                                            <td>$3.00</td>
-                                            <td>4</td>
-                                            <td>$5.50</td>
-                                    </tr>
-
-                                    <tr>
-                                            <td rowspan="2">Combos</td>
-                                            <td>2 Crunchy + Drink</td>
-                                            <td colspan="2">$4.50</td>
-                                            <td colspan="2"></td>
-                                    </tr>
-                                    <tr>
-                                            <td>
-                                                2 Soft + Drink
-                                                <br><b>Combo Meals Nutrition Facts</b>
-                                                <table border="1" cellpadding="3" cellspacing="0">
-                                    <tr>
-                                                    <th>Item</th>
-                                                    <th>Calories</th>
-                                                    <th>Sugar</th>
-                                    </tr>
-                                    <tr>
-                                                    <td>Soft Taco</td>
-                                                    <td>200 kcal</td>
-                                                    <td>2 g</td>
-                                    </tr>
-                                    <tr>
-                                                    <td>Drink</td>
-                                                    <td>120 kcal</td>
-                                                    <td>25 g</td>
-                                    </tr>
-                                    <tr>
-                                                    <td><b>Total</b></td>
-                                                    <td><b>320 kcal</b></td>
-                                                    <td><b>27 g</b></td>
-                                    </tr>
-                        </table>
-                                    </td>
-                                            <td colspan="2">$5.00</td>
-                                            <td colspan="2">N/A</td>
-                                     </tr>
-
-                                    <tr>
-                                                <td rowspan="2">Extras</td>
-                                                <td>Chips & Salsa</td>
-                                                <td colspan="2"></td>
-                                                <td colspan="2">$2.00</td>
-                                    </tr>
-                                                <tr>
-                                                <td>Guacamole</td>
-                                                <td colspan="2"></td>
-                                                <td colspan="2">$1.50</td>
-                                    </tr>
-
-                                     <tr>
-                                                <td colspan="6"><b>Average Meal Price Range:</b> $2.00 – $6.50</td>
-                                    </tr>
-                </tbody>
-            </table>
-       </section>
-   </main>
-</search>
- <a href="#top">↑ Back to Top</a>
-                <hr>
-
-                    <h2>Taco Trivia</h2>
-                    <details>
-                        <summary>When did TuteDude first appear in the United States?</summary>
-                        <p>TuteDude first appeared in the U.S. in 1980.</p>
-                  </details>
-
-                    <h2>Media Fun</h2>
-                    <h3>Listen to Taco Music</h3>
-                    <audio controls>
-                                <source src="taco-music.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                                </audio>
-
-                    <h3>Watch Taco Video</h3>
-                         <video width="320" height="240" controls>
-                         <source src="taco-video.mp4" type="video/mp4">
-                         Your browser does not support the video tag.
-              </video>
-
-    <hr>
-    <h2>Give Us Your Feedback</h2>
-    <fieldset>
-            <legend>Your Info</legend>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-
-            <label for="taco">Favorite Taco:</label>
-            <select id="taco" name="taco">
-                <option>Crunchy</option>
-                <option>Soft</option>
-                <option>Spicy</option>
-                <option>Cheesy</option>
-            </select>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <legend>Your Message</legend>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="30"></textarea>
-        </fieldset>
-        <br>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <br><br>
-
-    <h3>Contact Us</h3>
-    <p>
-        <b>TuteDude</b><br>
-        123 Taco Street<br>
-        Taco Town, TX 75000<br>
-        <a href="mailto:info@tutedude.com">info@tutedude.com</a>
-    </p>
-
-    <p>© 2025 TuteDude. All rights reserved.</p>
+      </section>
 </body>
 </html>
